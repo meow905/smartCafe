@@ -1,0 +1,53 @@
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 500px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .card h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    color: #888;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .description {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .learn-more {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more:hover {
+    background-color: #0056b3;
+  }
